@@ -1,0 +1,5 @@
+#!/bin/bash
+water=$(echo "$WATER" | sed 's/\base\ water//g')
+stir=$(echo "$STIR" | sed 's/\base\ stir//g')
+result=$(($water + $stir))
+echo "Result in base bestchol: $result"
