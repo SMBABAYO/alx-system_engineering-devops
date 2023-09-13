@@ -3,7 +3,7 @@
 * main - function to sum multiples of 3 0r 5 in numbers
 * Return: 0
 */
-101-natural.c
+
 int main(void)
 {
 	int sum = 0;
