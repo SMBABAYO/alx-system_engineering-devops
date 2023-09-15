@@ -3,6 +3,7 @@
 
 /**
 * print_number - Prints an integer
+* @n: the integer to print
 * Return: Nothing
 */
 
