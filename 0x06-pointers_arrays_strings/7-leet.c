@@ -6,11 +6,11 @@
 * Return: n value
 */
 
-char *leet(char *n);
+char *leet(char *n)
 {
 	int i, j;
-	char s1[j = "aAeEoOtTlL"];
-	char s2[j = "4433007711"];
+	char s1[] = "aAeEoOtTlL";
+	char s2[] = "4433007711";
 
 	for (i = 0; n[i] != '\0'; i++)
 	{
