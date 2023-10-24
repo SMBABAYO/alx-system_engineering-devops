@@ -2,7 +2,6 @@
 
 /**
 * print_listint - print the int data in a singly linked list
-*
 * @h: the head pointer to the list
 * Return: The number of the nodes in the list
 */
