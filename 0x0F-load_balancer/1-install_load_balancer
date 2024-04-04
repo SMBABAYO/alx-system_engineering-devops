@@ -11,14 +11,14 @@
  # edit config file 
  server_config=\ 
  " 
- frontend  besthor_frontend 
+ frontend smbabayo_frontend 
          bind *:80 
          mode http 
          default_backend besthor_backend 
- backend besthor_backend 
+ backend smbabayo_backend 
          balance roundrobin 
-         server 176572-web-01 54.165.168.252:80 check 
-         server 176572-web-02 34.237.91.136:80 check 
+         server 176572-web-01 34.234.201.241:80 check 
+         server 176572-web-02 3.84.238.190:80 check 
  " 
  echo "$server_config" | sudo tee -a /etc/haproxy/haproxy.cfg 
   
